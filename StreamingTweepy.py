@@ -27,4 +27,4 @@ auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 twitterStream = Stream(auth, listener())
 
-twitterStream.filter(track=["@Wimbledon", "@LiveatWimbledon", "#Wimbledon", "@ESPNTennis", "Tennis"])
+twitterStream.filter(track=["@FIFAcom","@ConfedCup2017","#ConfedCup","#FIFA","@official_rfs","@germanfootball","@selecaoportugal","@CAF_Online","@FFA","@FMF","@NZ_Football","@ANFPChile"])
